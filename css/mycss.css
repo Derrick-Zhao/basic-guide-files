@@ -1,0 +1,171 @@
+#bg
+{
+	background-image:url("../../form_validation/images/icons/bg.jpg");
+	    background-size: 100% 100%;
+	
+}
+#form
+{
+	width:800px;
+	height:3400px;
+	border:3px solid black;
+	margin-left:500px;
+	margin-top:30px;
+	box-shadow:20px 20px 20px black;
+	background-color: rgba(168, 165, 165, 0.6);
+	padding-left:30px;
+	
+}
+#title{
+	color:white;
+	text-align:center;
+	font-weight:bold;
+}
+#text
+{
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+}
+.username
+{
+	color:#39FA05;
+	
+	font-size:25px;
+}
+.inputu
+{
+	height:40px;
+	width:500px;
+}
+.gender
+{
+	color:white;
+	font-size:30px;
+}
+input[type=radio]
+{
+	
+	width:30px;
+	height:30px;
+}
+#video
+{
+	margin-left:80px;
+}
+#uploadf
+{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+}
+#rangein
+{
+	width:200px;
+	height:30px;
+	display:inline;
+
+}
+
+.cb
+{
+	color:white;
+	font-size:18px;
+}
+input[type=checkbox]
+{
+	 -webkit-transform: scale(2);
+	 margin-right:10px;
+	  
+}
+#ta
+{
+	width:500px;
+	height:300px;
+	margin-left:100px;
+}
+#shoes
+{
+	margin-left:200px;
+}
+.shoet
+{
+	color:#F2AA10;
+	font-size:30px;
+	margin-left:-20px;
+}
+.shoew
+{
+	color:white;
+	font-size:20px;
+	text-align:center;
+	margin-left:-280px;
+}
+#rangenum
+{
+	font-weight:bold;
+	font-size:20px;
+}
+#imgun1
+{
+	display:none;
+}
+#imgun2
+{
+	display:none;
+}
+#imgem1
+{
+	display:none;
+}
+#imgem2
+{
+	display:none;
+}
+#imgps1
+{
+	display:none;
+}
+#imgps2
+{
+	display:none;
+}
+#imgsn1
+{
+	display:none;
+}
+#imgsn2
+{
+	display:none;
+}
+#ur{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+#um{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+#er{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+#ev{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+#pr{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+#pv{
+	display:none;
+	font-size:20px;
+	color:red;
+}
+

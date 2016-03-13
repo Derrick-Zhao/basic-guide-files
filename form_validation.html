@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head lang='en'>
+    <meta charset='utf-8'>
+    <title>
+        Form Validation
+    </title>
+    <link rel='stylesheet' href='css/normalize.css'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/mycss.css'>
+    
+</head>
+
+<body>
+    <form action='http://www.youtube.com' id='returnform'>
+        <div class='container-fluid' id='bg'>
+            <div class='row'>
+                <div class='col-md-12'>
+                    <div id='form'>
+                        <h1 id='title'>Customer's shoes return form</h1>
+                        <br>
+                        <p id='text'>"I have a dream"-"Martin Luther King"</p>
+                        <p id='ur'>Please enter your username</p>
+                        <p id='um'>Please enter at least 5 characters</p>
+                        <p class='username'>Username:</p>
+                        <input type='username' name='username' id='username' placeholder='Input your username here' class='inputu'> <img id='imgun1' src='images/icons/no.png' ><img id='imgun2' src='images/icons/yes.png'>
+                        <p></p>
+                        <br>
+                        <p id='er'>Please enter your e-mail address</p>
+                        <p id='ev'>Please enter a valid e-mail address</p>
+                        <p class='username'>E-mail:</p>
+                        <input type='email' id='e-mail' placeholder='Input your email here' class='inputu'> <img id='imgem1' src='images/icons/no.png' ><img id='imgem2'src='images/icons/yes.png'>
+                        <p></p>
+                        <br>
+                        <p id='pr'>Please enter your password</p>
+                        <p id='pv'>Please enter a valid password</p>
+                        <p class='username'>Password:</p>
+                        <input type='password' id='psw' placeholder='Input your password here' class='inputu'> <img id='imgps1' src='images/icons/no.png' > <img id='imgps2'src='images/icons/yes.png'>
+                        <p></p>
+                        <br>
+                        <p class='username'>Gender:</p>
+                        <input type='radio' name='gender'><span class='gender'>Male</span>
+                        <br>
+                        <input type='radio' name='gender'><span class='gender'>Female</span>
+                        <br>
+                        <input type='radio' name='gender'><span class='gender'>Not specified</span>
+                        <br>
+                        <p class='username'>Select the date you bought the shoes</p>
+                        <input type='date' class='inputu'>
+                        <br>
+                        <p class='username'>Select your shoes size</p>
+                        <select class='inputu'>
+                            <option value='---'>--select--</option>
+                            <option value='5'>5</option>
+                            <option value='6'>6</option>
+                            <option value='7'>7</option>
+                            <option value='8'>8</option>
+                        </select>
+                        <p class='username'>What is the color of the shoes?(optional)</p>
+                        <input type='color' value='black'>
+                        <p class='username'>Tell us the number of shoes you are returning:(from 1 to 9)</p>
+                        <input type='number' min='1' max='15'>
+                        <p></p>
+                        <p class='username'>Want to listen to a good song so that you can relax a bit?</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IdneKLhsWOQ" frameborder="0" allowfullscreen id='video'></iframe>
+                        <p class='username'>Upload pictures of the shoes returning(optional)</p>
+                        <input type='file'>
+                        <br>
+                        <p id='uploadf'>Accepted file type:JPG,JPEG,or PNG</p>
+                        <p class='username'>Give us the serial number of the shoes returned</p>
+                        <input type='text' class='inputu' id='sn'> <img id='imgsn1' src='images/icons/no.png' ><img id='imgsn2' src='images/icons/yes.png'>
+                        <p class='username'>How satisfy are you with our customer service?(optional)</p>
+                        <span id='rangenum'>90</span>
+                        <input id='rangein' type='range' min='90' max='100' value='95' step='1'><span id='rangenum'>100</span>
+                        <p class='username'>Reason why you want to return it?</p>
+                        <input type='checkbox'><span class='cb'>The <span style='color:grey'>quality (really?)</span> of the shoes is not as expected</span>
+                        <br>
+                        <input type='checkbox'><span class='cb'>The <span style='color:grey'>size (really?)</span> of the shoes does not fit me</span>
+                        <br>
+                        <input type='checkbox'><span class='cb'>I do not enjoy the <u style="color:red">experience</u> that I have from using it</span>
+                        <br>
+                        <input type='checkbox'><span class='cb'>I find a more reasonable <span style='color:red'>price</span> for the same item from a different company</span>
+                        <br>
+                        <input type='checkbox'><span class='cb'>I hate your company in general.Period!!!</span>
+                        <br>
+                        <p></p>
+                        <p class='username'>Any comments(s) for our AWESOME team?(optional)</p>
+                        <textarea rows='10' cols='50' id='ta' placeholder='We as a perfect team appreciate your comments...may be not'></textarea>
+                        <p class='username'>Check out these other shoes that we are selling right now</p>
+                        <div id='shoes'>
+                            <img src='images/icons/nike1.jpg' width='300px'>
+                            <br>
+                            <p class='shoet'>Nike Air Zoom Pegasus 31</p>
+                            <p class='shoew'>Figure 1</p>
+                            <p class='shoew'>Available in 7 color(s)</p>
+                            <p class='shoew'>--Price:$100---</p>
+                            <p class='shoew'>For more details-Visit<a href='http://www.nike.com' style='color:yellow'>nike.com</a></p>
+                            <img src='images/icons/nike2.jpg' width='300px'>
+                            <p class='shoet'>Nike Lunar Trainer 1</p>
+                            <p class='shoew'>Figure 2</p>
+                            <p class='shoew'>Available in 3 color(s)</p>
+                            <p class='shoew'>--Price:$110---</p>
+                            <p class='shoew'>For more details-Visit<a href='http://www.nike.com' style='color:yellow'>nike.com</a></p>
+                        </div>
+                        <p class='username'>Send the feedback(s) to us</p>
+                        <br>
+                        <br>
+                        <input type="submit" class="btn btn-success" value='Submit'>
+                        <input type="reset" class="btn btn-secondary" id='reset'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type='text/javascript' src='js/vendors/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='js/vendors/bootstrap.min.js'></script>
+    
+    <script type='text/javascript' src='js/custom/myjs.js'></script>
+ 
+ 
+</body>
+
+</html>
